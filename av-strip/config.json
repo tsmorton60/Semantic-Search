@@ -1,0 +1,24 @@
+{
+  "path": "sentence-transformers/nli-mpnet-base-v2",
+  "hybrid": true,
+  "content": true,
+  "scoring": {
+    "method": "bm25",
+    "terms": true,
+    "normalize": true
+  },
+  "autoid": 31102,
+  "dimensions": 768,
+  "backend": "faiss",
+  "offset": 31102,
+  "build": {
+    "create": "2025-02-09T13:55:41Z",
+    "python": "3.11.11",
+    "settings": {
+      "components": "IVF705,Flat"
+    },
+    "system": "Linux (x86_64)",
+    "txtai": "8.2.0"
+  },
+  "update": "2025-02-09T13:55:41Z"
+}
